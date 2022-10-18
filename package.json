@@ -6,7 +6,8 @@
   "scripts": {
     "start": "react-scripts start"
   },
-  "author": "Tanmay Vaij, Shreyash Maurya, Premchand Parmeshwar",
+  "author": "Tanmay Vaij",
+  "contributors": ["Shreyash Maurya", "Premchand Parmeshwar"],
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.12",
