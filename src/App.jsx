@@ -1,6 +1,13 @@
+import { AlertDanger, AlertPrimary, AlertSuccess, AlertWarning } from "./Components/Alert"
+
 const App = () => {
     return (
-        <h1>Hello World</h1>
+        <>
+        <AlertPrimary/>
+        <AlertDanger/>
+        <AlertSuccess/>
+        <AlertWarning/>
+        </>
     )
 }
 
