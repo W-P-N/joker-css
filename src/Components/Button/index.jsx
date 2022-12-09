@@ -30,9 +30,18 @@ const ButtonWarning = () => {
     )
 }
 
+const ButtonDark = () => {
+    return(
+        <button className="bg-gray-700 text-sm px-3 py-2 rounded text-white">
+            Dark
+        </button>
+    )
+}
+
 export {
     ButtonPrimary,
     ButtonDanger,
     ButtonSuccess,
-    ButtonWarning
+    ButtonWarning,
+    ButtonDark
 }

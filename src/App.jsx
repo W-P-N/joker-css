@@ -1,5 +1,5 @@
 import { AlertDanger, AlertPrimary, AlertSuccess, AlertWarning } from "./Components/Alert"
-import { ButtonDanger, ButtonPrimary, ButtonSuccess, ButtonWarning } from "./Components/Button"
+import { ButtonDanger, ButtonDark, ButtonPrimary, ButtonSuccess, ButtonWarning } from "./Components/Button"
 
 const App = () => {
     return (
@@ -12,6 +12,7 @@ const App = () => {
         <ButtonDanger/>
         <ButtonSuccess/>
         <ButtonWarning/>
+        <ButtonDark/>
         </>
     )
 }
