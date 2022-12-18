@@ -1,18 +1,10 @@
-import { AlertDanger, AlertPrimary, AlertSuccess, AlertWarning } from "./Components/Alert"
-import { ButtonDanger, ButtonDark, ButtonPrimary, ButtonSuccess, ButtonWarning } from "./Components/Button"
+import * as Alerts from "./Components/Alert"
+import * as Buttons from "./Components/Button"
 
 const App = () => {
     return (
         <>
-        <AlertPrimary/>
-        <AlertDanger/>
-        <AlertSuccess/>
-        <AlertWarning/>
-        <ButtonPrimary/>
-        <ButtonDanger/>
-        <ButtonSuccess/>
-        <ButtonWarning/>
-        <ButtonDark/>
+        <Alerts.AlertPrimary>Hello! A Primary Warning</Alerts.AlertPrimary>
         </>
     )
 }
