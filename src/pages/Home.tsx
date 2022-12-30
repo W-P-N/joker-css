@@ -1,5 +1,9 @@
+import { ButtonPrimary } from "../components/Button";
+
 export default function Home() {
     return (
-        <>Home Page</>
+        <div id="home">
+            <ButtonPrimary>Primary button</ButtonPrimary>
+        </div>
     )
 }
