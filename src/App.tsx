@@ -1,12 +1,7 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home"
+import { Clickable } from "./components";
 
-export default function App() {
-	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<Home />} />
-			</Routes>
-		</BrowserRouter>
-	)
-}
+const App = () => {
+  return <Clickable text="click me !" onClick={() => {}} size="sm" elevated />;
+};
+
+export default App;
