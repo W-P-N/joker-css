@@ -1,6 +1,6 @@
 {
   "name": "modern-react-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A modern react ui library powered by tailwindcss",
   "main": "./dist/index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "react",
-    "ui"
+    "ui",
+    "modern",
+    "components"
   ],
   "author": "Tanmay Vaij",
   "license": "ISC",
